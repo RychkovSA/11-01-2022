@@ -106,16 +106,16 @@ body{
     background-image: url(../img/cat-kids.png);
 }
 .categories-sale{
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 .categories-name{
-font-weight: bold;
-font-size: 24px;
-line-height: 29px;
-color: #F16D7F;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
 }
 .products-wrap{
     display: flex;
@@ -125,17 +125,40 @@ color: #F16D7F;
 .benefits{
     background-color: #222222;
 }
-.benefits-wrap{
+.benefits-enim{
     width: 100%;
     height: 341px;
-    background-image: url(../img/benefits-bg.png);
-    background-position-x: -170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.benefits-delivery-card{
+    width: 360px;
+    align-items: center;
+}
+.benefits-delivery-img{
+    text-align: center;
+    padding-bottom: 28px;
+}
+.benefits-delivery-text1{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.benefits-delivery-text2{
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
 }
 .feedback{
     background-color:#D73C3C;
     height: 448px;
-padding-top: 97px;
-padding-bottom: 128px;
+    padding-top: 97px;
+    padding-bottom: 128px;
 }
 .footer{
     background-color: #222222;
